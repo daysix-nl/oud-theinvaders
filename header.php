@@ -49,7 +49,7 @@
 
 <section class="hamburger-overlay h-screen w-screen md:w-[50vw] pl-[45px] md:pl-6 xl:pl-7 pt-6 xl:pt-7 relative min-h-[700px] md:min-h-[600px] overflow-hidden">
     
-                <?php 
+                <!-- <?php 
                 // add "raw" key and save data to variable
                 $langs_array = pll_the_languages( array( 'dropdown' => 1, 'hide_current' => 1, 'raw' => 1 ) );
                 ?>
@@ -61,7 +61,7 @@
                     </a>
                     <?php endforeach; ?>
                 </div>
-                <?php endif; ?>
+                <?php endif; ?> -->
 <nav class="content-overlay grid gap-3 md:gap-3 mt-5 xl:mt-7">
 
         <?php
