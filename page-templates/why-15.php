@@ -12,7 +12,7 @@
        
 
     <!-- BACKGROUND SETUP -->
-    <img src="/wp-content/themes/day-six/img/local/background-page.jpg" alt="" class="absolute top-0 left-0 right-0 bottom-0 object-cover h-screen w-screen z-[-2] duration-[unset]">
+    <img src="/wp-content/themes/theinvaders-theme/img/local/background-page.jpg" alt="" class="absolute top-0 left-0 right-0 bottom-0 object-cover h-screen w-screen z-[-2] duration-[unset]">
     <div class="bg-gradient-to-b from-[#061116] via-[#01020385] to-[#061116] absolute top-0 left-0 right-0 bottom-0 object-cover h-screen w-screen z-[-1] duration-[unset]"></div>
 
 
@@ -35,7 +35,7 @@
                     <p class="text-15 leading-22 md:text-25 md:leading-35 font-rubik text-white font-normal text-center max-w-[316px] md:max-w-full mx-auto">Since the release of Pong just over 50 years ago, gaming took off and never looked back. <br><br>The number of people playing video games grows every day and time spent per player in this unlimited universe increases just as rapidly.</p>
                 </div>
                 <div class="col-span-1 order-1 md:order-2">
-                    <img src="/wp-content/themes/day-six/img/local/beeldrechts.png" alt="" class="img-border w-[350px] md:w-full mx-auto">
+                    <img src="/wp-content/themes/theinvaders-theme/img/local/beeldrechts.png" alt="" class="img-border w-[350px] md:w-full mx-auto">
                 </div>
             </div>
         </div>
@@ -44,7 +44,7 @@
         <div class="container mt-4 md:mt-10">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 items-center">
                 <div class="col-span-1">
-                    <img src="/wp-content/themes/day-six/img/local/beeldlinks.png" alt="" class="img-border w-[350px] md:w-full mx-auto">
+                    <img src="/wp-content/themes/theinvaders-theme/img/local/beeldlinks.png" alt="" class="img-border w-[350px] md:w-full mx-auto">
                 </div>
                 <div class="col-span-1">
                     <p class="text-15 leading-22 md:text-25 md:leading-35 font-rubik text-white font-normal text-center max-w-[316px] md:max-w-full mx-auto">That shouldn’t come as a surprise to anyone who’s played a video game in the past decade, whether that’s Call of Duty or Candy Crush. <br><br>People love gaming, people love learning and people love connecting. <br>With other gamers and, when it’s done right, with brands.</p>
@@ -60,7 +60,7 @@
 
          <!-- XXX -->
         <div class="container mt-6 md:mt-8">
-            <img src="/wp-content/themes/day-six/img/local/kubus.png" alt="" class="w-[140.8px] md:w-[212.8px] h-auto mx-auto">
+            <img src="/wp-content/themes/theinvaders-theme/img/local/kubus.png" alt="" class="w-[140.8px] md:w-[212.8px] h-auto mx-auto">
         </div>
 
         <!-- XXX -->

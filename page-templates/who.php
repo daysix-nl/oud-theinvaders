@@ -11,7 +11,7 @@ get_header(); ?>
    
 
     <!-- BACKGROUND SETUP -->
-    <img src="/wp-content/themes/day-six/img/local/background-page.jpg" alt="" class="absolute top-0 left-0 right-0 bottom-0 object-cover h-screen w-screen z-[-2] duration-[unset]">
+    <img src="/wp-content/themes/theinvaders-theme/img/local/background-page.jpg" alt="" class="absolute top-0 left-0 right-0 bottom-0 object-cover h-screen w-screen z-[-2] duration-[unset]">
     <div class="bg-gradient-to-b from-[#061116] via-[#01020385] to-[#061116] absolute top-0 left-0 right-0 bottom-0 object-cover h-screen w-screen z-[-1] duration-[unset]"></div>
 
 
@@ -33,7 +33,7 @@ get_header(); ?>
                 <div class="absolute top-1 right-1 md:top-2 md:right-2 w-[17px] md:w-[24px] xl:w-[27px] h-auto aspect-square">
                     <?php include get_template_directory() . '/img/icons/linkedin.php'; ?>
                 </div>
-                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/day-six/img/local/Ruben-Houkes-1.png" alt="">
+                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/theinvaders-theme/img/local/Ruben-Houkes-1.png" alt="">
                 <div class="pt-1 pl-1 pb-1 md:pb-2 bg-shape-purple h-full">
                     <h3 class="text-14 leading-15 md:text-17 md:leading-16 xl:text-19 xl:leading-18 font-space font-bold text-white mb-[6px] md:mb-1 ">Ruben Houkes</h3>
                     <p class="text-13 leading-14 md:text-15 md:leading-13 xl:text-16 xl:leading-16 font-space font-normal text-white">Co-founder</p>
@@ -45,7 +45,7 @@ get_header(); ?>
                 <div class="absolute top-1 right-1 md:top-2 md:right-2 w-[17px] md:w-[24px] xl:w-[27px] h-auto aspect-square">
                     <?php include get_template_directory() . '/img/icons/linkedin.php'; ?>
                 </div>
-                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/day-six/img/local/Frieda.png" alt="">
+                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/theinvaders-theme/img/local/Frieda.png" alt="">
                 <div class="pt-1 pl-1 pb-1 md:pb-2 bg-shape-purple h-full">
                     <h3 class="text-14 leading-15 md:text-17 md:leading-16 xl:text-19 xl:leading-18 font-space font-bold text-white mb-[6px] md:mb-1 ">Frieda Ulsamer de Waard</h3>
                     <p class="text-13 leading-14 md:text-15 md:leading-13 xl:text-16 xl:leading-16 font-space font-normal text-white">General manager </p>
@@ -57,7 +57,7 @@ get_header(); ?>
                 <div class="absolute top-1 right-1 md:top-2 md:right-2 w-[17px] md:w-[24px] xl:w-[27px] h-auto aspect-square">
                     <?php include get_template_directory() . '/img/icons/linkedin.php'; ?>
                 </div>
-                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/day-six/img/local/Frank-Goren.png" alt="">
+                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/theinvaders-theme/img/local/Frank-Goren.png" alt="">
                 <div class="pt-1 pl-1 pb-1 md:pb-2 bg-shape-purple h-full">
                     <h3 class="text-14 leading-15 md:text-17 md:leading-16 xl:text-19 xl:leading-18 font-space font-bold text-white mb-[6px] md:mb-1 ">Frank Goren</h3>
                     <p class="text-13 leading-14 md:text-15 md:leading-13 xl:text-16 xl:leading-16 font-space font-normal text-white">Managing director </p>
@@ -69,7 +69,7 @@ get_header(); ?>
                 <div class="absolute top-1 right-1 md:top-2 md:right-2 w-[17px] md:w-[24px] xl:w-[27px] h-auto aspect-square">
                     <?php include get_template_directory() . '/img/icons/linkedin.php'; ?>
                 </div>
-                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/day-six/img/local/Kevin-Loos.png" alt="">
+                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/theinvaders-theme/img/local/Kevin-Loos.png" alt="">
                 <div class="pt-1 pl-1 pb-1 md:pb-2 bg-shape-purple h-full">
                     <h3 class="text-14 leading-15 md:text-17 md:leading-16 xl:text-19 xl:leading-18 font-space font-bold text-white mb-[6px] md:mb-1 ">Kevin Loos</h3>
                     <p class="text-13 leading-14 md:text-15 md:leading-13 xl:text-16 xl:leading-16 font-space font-normal text-white">Creative director</p>
@@ -81,7 +81,7 @@ get_header(); ?>
                 <div class="absolute top-1 right-1 md:top-2 md:right-2 w-[17px] md:w-[24px] xl:w-[27px] h-auto aspect-square">
                     <?php include get_template_directory() . '/img/icons/linkedin.php'; ?>
                 </div>
-                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/day-six/img/local/Jeroen-van-Lier.png" alt="">
+                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/theinvaders-theme/img/local/Jeroen-van-Lier.png" alt="">
                 <div class="pt-1 pl-1 pb-1 md:pb-2 bg-shape-purple h-full">
                     <h3 class="text-14 leading-15 md:text-17 md:leading-16 xl:text-19 xl:leading-18 font-space font-bold text-white mb-[6px] md:mb-1 ">Jeroen van Lier</h3>
                     <p class="text-13 leading-14 md:text-15 md:leading-13 xl:text-16 xl:leading-16 font-space font-normal text-white">Business director</p>
@@ -94,7 +94,7 @@ get_header(); ?>
                 <div class="absolute top-1 right-1 md:top-2 md:right-2 w-[17px] md:w-[24px] xl:w-[27px] h-auto aspect-square">
                     <?php include get_template_directory() . '/img/icons/linkedin.php'; ?>
                 </div>
-                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/day-six/img/local/Pieter-Doove.png" alt="">
+                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/theinvaders-theme/img/local/Pieter-Doove.png" alt="">
                 <div class="pt-1 pl-1 pb-1 md:pb-2 bg-shape-purple h-full">
                     <h3 class="text-14 leading-15 md:text-17 md:leading-16 xl:text-19 xl:leading-18 font-space font-bold text-white mb-[6px] md:mb-1 ">Pieter Doove</h3>
                     <p class="text-13 leading-14 md:text-15 md:leading-13 xl:text-16 xl:leading-16 font-space font-normal text-white">Gaming consultant</p>
@@ -107,7 +107,7 @@ get_header(); ?>
                 <div class="absolute top-1 right-1 md:top-2 md:right-2 w-[17px] md:w-[24px] xl:w-[27px] h-auto aspect-square">
                     <?php include get_template_directory() . '/img/icons/linkedin.php'; ?>
                 </div>
-                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/day-six/img/local/Janita-Veenstra.png" alt="">
+                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/theinvaders-theme/img/local/Janita-Veenstra.png" alt="">
                 <div class="pt-1 pl-1 pb-1 md:pb-2 bg-shape-purple h-full">
                     <h3 class="text-14 leading-15 md:text-17 md:leading-16 xl:text-19 xl:leading-18 font-space font-bold text-white mb-[6px] md:mb-1 ">Janita Veenstra</h3>
                     <p class="text-13 leading-14 md:text-15 md:leading-13 xl:text-16 xl:leading-16 font-space font-normal text-white">Account director</p>
@@ -120,7 +120,7 @@ get_header(); ?>
                 <div class="absolute top-1 right-1 md:top-2 md:right-2 w-[17px] md:w-[24px] xl:w-[27px] h-auto aspect-square">
                     <?php include get_template_directory() . '/img/icons/linkedin.php'; ?>
                 </div>
-                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/day-six/img/local/Marie-Claire-de-Gou.png" alt="">
+                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/theinvaders-theme/img/local/Marie-Claire-de-Gou.png" alt="">
                 <div class="pt-1 pl-1 pb-1 md:pb-2 bg-shape-purple h-full">
                     <h3 class="text-14 leading-15 md:text-17 md:leading-16 xl:text-19 xl:leading-18 font-space font-bold text-white mb-[6px] md:mb-1 ">Marie-Claire de Gou</h3>
                     <p class="text-13 leading-14 md:text-15 md:leading-13 xl:text-16 xl:leading-16 font-space font-normal text-white">Account director</p>
@@ -133,7 +133,7 @@ get_header(); ?>
                 <div class="absolute top-1 right-1 md:top-2 md:right-2 w-[17px] md:w-[24px] xl:w-[27px] h-auto aspect-square">
                     <?php include get_template_directory() . '/img/icons/linkedin.php'; ?>
                 </div>
-                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/day-six/img/local/Lieke-Hijmans.png" alt="">
+                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/theinvaders-theme/img/local/Lieke-Hijmans.png" alt="">
                 <div class="pt-1 pl-1 pb-1 md:pb-2 bg-shape-purple h-full">
                     <h3 class="text-14 leading-15 md:text-17 md:leading-16 xl:text-19 xl:leading-18 font-space font-bold text-white mb-[6px] md:mb-1 ">Lieke Hijmans</h3>
                     <p class="text-13 leading-14 md:text-15 md:leading-13 xl:text-16 xl:leading-16 font-space font-normal text-white">Account manager</p>
@@ -146,7 +146,7 @@ get_header(); ?>
                 <div class="absolute top-1 right-1 md:top-2 md:right-2 w-[17px] md:w-[24px] xl:w-[27px] h-auto aspect-square">
                     <?php include get_template_directory() . '/img/icons/linkedin.php'; ?>
                 </div>
-                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/day-six/img/local/Simone-Brussels.png" alt="">
+                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/theinvaders-theme/img/local/Simone-Brussels.png" alt="">
                 <div class="pt-1 pl-1 pb-1 md:pb-2 bg-shape-purple h-full">
                     <h3 class="text-14 leading-15 md:text-17 md:leading-16 xl:text-19 xl:leading-18 font-space font-bold text-white mb-[6px] md:mb-1 ">Simone Brussel</h3>
                     <p class="text-13 leading-14 md:text-15 md:leading-13 xl:text-16 xl:leading-16 font-space font-normal text-white">Project manager</p>
@@ -159,7 +159,7 @@ get_header(); ?>
                 <div class="absolute top-1 right-1 md:top-2 md:right-2 w-[17px] md:w-[24px] xl:w-[27px] h-auto aspect-square">
                     <?php include get_template_directory() . '/img/icons/linkedin.php'; ?>
                 </div>
-                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/day-six/img/local/Soo-Jin-de-Fraiture.png" alt="">
+                <img class="object-cover w-full aspect-[4/5]" src="/wp-content/themes/theinvaders-theme/img/local/Soo-Jin-de-Fraiture.png" alt="">
                 <div class="pt-1 pl-1 pb-1 md:pb-2 bg-shape-purple h-full">
                     <h3 class="text-14 leading-15 md:text-17 md:leading-16 xl:text-19 xl:leading-18 font-space font-bold text-white mb-[6px] md:mb-1 ">Soo Jin de Fraiture</h3>
                     <p class="text-13 leading-14 md:text-15 md:leading-13 xl:text-16 xl:leading-16 font-space font-normal text-white">Office manager</p>

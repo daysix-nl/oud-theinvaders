@@ -10,7 +10,7 @@
 <main class="relative">
 
     <!-- BACKGROUND SETUP -->
-    <!-- <img src="/wp-content/themes/day-six/img/local/background-page.jpg" alt="" class="absolute top-0 left-0 right-0 bottom-0 object-cover h-screen w-screen z-[-2] duration-[unset]"> -->
+    <!-- <img src="/wp-content/themes/theinvaders-theme/img/local/background-page.jpg" alt="" class="absolute top-0 left-0 right-0 bottom-0 object-cover h-screen w-screen z-[-2] duration-[unset]"> -->
     <video autoplay="" loop="" muted="" playsinline="" class="absolute top-0 left-0 right-0 bottom-0 object-cover h-screen w-screen z-[-2] duration-[unset]">
             <source class="hidden md:block" src="<?php the_field('video_desktop', 'options')?>" type="video/mp4">
             <source class="block md:hidden" src="<?php the_field('video_mobiel', 'options')?>" type="video/mp4">

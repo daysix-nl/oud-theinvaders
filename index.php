@@ -13,7 +13,7 @@ get_header(); ?>
    
 
     <!-- BACKGROUND SETUP -->
-    <img src="/wp-content/themes/day-six/img/local/background-page.jpg" alt="" class="absolute top-0 left-0 right-0 bottom-0 object-cover h-screen w-screen z-[-2] duration-[unset]">
+    <img src="/wp-content/themes/theinvaders-theme/img/local/background-page.jpg" alt="" class="absolute top-0 left-0 right-0 bottom-0 object-cover h-screen w-screen z-[-2] duration-[unset]">
     <div class="bg-gradient-to-b from-[#061116] via-[#01020385] to-[#061116] absolute top-0 left-0 right-0 bottom-0 object-cover h-screen w-screen z-[-1] duration-[unset]"></div>
 
     <!-- CONTENT AREA -->
@@ -21,7 +21,7 @@ get_header(); ?>
   
        <!-- KUBUS -->
         <div class="container mt-[180px] md:mt-[150px] xl:mt-[135px]">
-            <img src="/wp-content/themes/day-six/img/local/kubus.png" alt="" class="w-[140.8px] md:w-[162.31px] xl:w-[182.4px] h-auto mx-auto">
+            <img src="/wp-content/themes/theinvaders-theme/img/local/kubus.png" alt="" class="w-[140.8px] md:w-[162.31px] xl:w-[182.4px] h-auto mx-auto">
         </div>
 
         <!-- TITLE - TEXT -->
