@@ -1,0 +1,18 @@
+{
+  "name": "acf-afbeelding-tekstblok",
+  "title": "Afbeelding - tekstblok",
+  "description": "",
+  "category": "paginablokken",
+  "icon": "align-left",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-afbeelding-tekstblok.php"
+  }
+}

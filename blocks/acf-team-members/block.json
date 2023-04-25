@@ -1,0 +1,18 @@
+{
+  "name": "acf-team-members",
+  "title": "Team members",
+  "description": "",
+  "category": "paginablokken",
+  "icon": "id",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-team-members.php"
+  }
+}

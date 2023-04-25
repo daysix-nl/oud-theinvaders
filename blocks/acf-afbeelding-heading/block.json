@@ -1,0 +1,18 @@
+{
+  "name": "acf-afbeelding-heading",
+  "title": "Afbeelding - heading",
+  "description": "",
+  "category": "paginablokken",
+  "icon": "align-left",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-afbeelding-heading.php"
+  }
+}

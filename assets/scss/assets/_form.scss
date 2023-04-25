@@ -1,0 +1,85 @@
+.gform_body input,
+.gform_body textarea {
+  background: transparent !important;
+  border: 1px solid #fff !important;
+  font-size: 15px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 15px 15px !important;
+  color: #ffff !important;
+
+  @media screen and (min-width: 840px) {
+    font-size: 19px !important;
+  }
+
+  @media screen and (min-width: 1290px) {
+    font-size: 22px !important;
+  }
+}
+
+:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.gform_button {
+  border: 3px solid #ffff !important;
+  font-size: 19px !important;
+  height: 50px !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  font-family: Space Grotesk !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: #fff !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+
+  @media screen and (min-width: 840px) {
+    width: 112px !important;
+    font-size: 19px !important;
+  }
+
+  @media screen and (min-width: 1290px) {
+    width: 152px !important;
+    font-size: 22px !important;
+  }
+}
+
+.gform_button:hover {
+  background: #ffffff26;
+  transition-duration: 0.3s;
+}
+
+.gform_wrapper .gfield_validation_message,
+.gform_wrapper .validation_message {
+  background: transparent !important;
+  border: 0px !important;
+  font-size: 14.992px;
+  margin-top: unset !important;
+  padding: unset !important;
+}
+
+.gfield_error {
+  display: grid;
+
+  .ginput_container {
+    order: 2 !important;
+  }
+
+  .validation_message {
+    margin-top: -14px !important;
+    order: 1 !important;
+    text-align: right;
+    color: #ff8383 !important;
+  }
+}
+
+.gform_validation_errors {
+  display: none !important;
+}
+
+.gform_wrapper .gfield_error [aria-invalid="true"] {
+  border: 1px solid #ff8383 !important;
+}

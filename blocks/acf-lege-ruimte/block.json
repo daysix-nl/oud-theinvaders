@@ -1,0 +1,18 @@
+{
+  "name": "acf-lege-ruimte",
+  "title": "Lege ruimte",
+  "description": "",
+  "category": "paginablokken",
+  "icon": "editor-insertmore",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-lege-ruimte.php"
+  }
+}
