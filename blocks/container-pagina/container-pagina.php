@@ -27,7 +27,7 @@ else: /* rendering in editor body */
                     <?php the_title(); ?>
                 </h1>
 
-                <?php $allowed_blocks_inner = ['acf/acf-ondertitel', 'acf/acf-afbeelding', 'acf/acf-afbeelding-heading', 'acf/acf-afbeelding-tekstblok', 'acf/acf-body', 'acf/acf-button', 'acf/acf-cta', 'acf/acf-heading-afbeelding', 'acf/acf-heading-body', 'acf/acf-lege-ruimte', 'acf/acf-logoblok', 'acf/acf-projecten', 'acf/acf-subheading', 'acf/acf-team-members', 'acf/acf-tekstblok-afbeelding', 'acf/acf-button',]; ?>
+                <?php $allowed_blocks_inner = ['acf/acf-ondertitel', 'acf/acf-afbeelding', 'acf/acf-afbeelding-heading', 'acf/acf-afbeelding-tekstblok', 'acf/acf-body', 'acf/acf-button', 'acf/acf-cta', 'acf/acf-heading-afbeelding', 'acf/acf-heading-body', 'acf/acf-lege-ruimte', 'acf/acf-logoblok', 'acf/acf-projecten', 'acf/acf-subheading', 'acf/acf-team-members', 'acf/acf-tekstblok-afbeelding', 'acf/acf-buttos',]; ?>
                 <InnerBlocks allowedBlocks="<?php echo esc_attr(wp_json_encode($allowed_blocks_inner)); ?>" />
 
             </div>

@@ -1,5 +1,5 @@
 {
-  "name": "acf-button",
+  "name": "acf-buttons",
   "title": "Button",
   "description": "",
   "category": "paginablokken",
@@ -13,7 +13,7 @@
   },
   "acf": {
     "mode": "preview",
-    "renderTemplate": "acf-button.php"
+    "renderTemplate": "acf-buttons.php"
   },
   "example": {
     "attributes": {
