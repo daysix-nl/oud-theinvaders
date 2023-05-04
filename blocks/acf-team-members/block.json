@@ -1,0 +1,27 @@
+{
+  "name": "acf-team-members",
+  "title": "Team members",
+  "description": "",
+  "category": "paginablokken",
+  "icon": "id",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-team-members.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/theinvaders-theme/img/preview-images/Team-Members.jpg",
+        "is_preview": true
+      }
+    }
+  }
+}

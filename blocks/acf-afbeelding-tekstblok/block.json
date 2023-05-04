@@ -1,0 +1,27 @@
+{
+  "name": "acf-afbeelding-tekstblok",
+  "title": "Afbeelding - tekstblok",
+  "description": "",
+  "category": "paginablokken",
+  "icon": "align-left",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-afbeelding-tekstblok.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/theinvaders-theme/img/preview-images/Afbeelding-Links-Tekstblok-rechts.jpg",
+        "is_preview": true
+      }
+    }
+  }
+}

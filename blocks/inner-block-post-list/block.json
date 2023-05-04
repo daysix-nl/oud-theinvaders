@@ -1,0 +1,25 @@
+{
+  "name": "inner-block-post-image",
+  "title": "Inner block - Image",
+  "description": "",
+  "category": "innerblocks",
+  "icon": "insert",
+  "keywords": ["block"],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "inner-block-post-image.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/theinvaders-theme/img/preview-images/Afbeelding-case.jpg",
+        "is_preview": true
+      }
+    }
+  }
+}
