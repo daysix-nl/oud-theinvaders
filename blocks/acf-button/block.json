@@ -3,7 +3,7 @@
   "title": "Button",
   "description": "",
   "category": "paginablokken",
-  "icon": "admin-links",
+  "icon": "links",
   "keywords": [
     "block"
   ],
@@ -14,5 +14,14 @@
   "acf": {
     "mode": "preview",
     "renderTemplate": "acf-button.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/theinvaders-theme/img/preview-images/Button.jpg",
+        "is_preview": true
+      }
+    }
   }
 }

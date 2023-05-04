@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.1 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -391,6 +391,9 @@ video {
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
   --tw-ordinal:  ;
   --tw-slashed-zero:  ;
   --tw-numeric-figure:  ;
@@ -438,6 +441,9 @@ video {
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
   --tw-ordinal:  ;
   --tw-slashed-zero:  ;
   --tw-numeric-figure:  ;
@@ -699,9 +705,6 @@ video {
 .h-6 {
   height: 60px;
 }
-.h-\[580px\] {
-  height: 580px;
-}
 .h-auto {
   height: auto;
 }
@@ -714,11 +717,11 @@ video {
 .max-h-\[58px\] {
   max-height: 58px;
 }
-.min-h-\[700px\] {
-  min-height: 700px;
-}
 .min-h-\[580px\] {
   min-height: 580px;
+}
+.min-h-\[700px\] {
+  min-height: 700px;
 }
 .w-\[140\.8px\] {
   width: 140.8px;
@@ -882,52 +885,38 @@ video {
 }
 .from-\[\#061116\] {
   --tw-gradient-from: #061116 var(--tw-gradient-from-position);
-  --tw-gradient-from-position:  ;
-  --tw-gradient-to: rgb(6 17 22 / 0)  var(--tw-gradient-from-position);
-  --tw-gradient-to-position:  ;
+  --tw-gradient-to: rgb(6 17 22 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .from-\[\#1B156499\] {
   --tw-gradient-from: #1B156499 var(--tw-gradient-from-position);
-  --tw-gradient-from-position:  ;
-  --tw-gradient-to: rgb(27 21 100 / 0)  var(--tw-gradient-from-position);
-  --tw-gradient-to-position:  ;
+  --tw-gradient-to: rgb(27 21 100 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .from-\[\#48237F99\] {
   --tw-gradient-from: #48237F99 var(--tw-gradient-from-position);
-  --tw-gradient-from-position:  ;
-  --tw-gradient-to: rgb(72 35 127 / 0)  var(--tw-gradient-from-position);
-  --tw-gradient-to-position:  ;
+  --tw-gradient-to: rgb(72 35 127 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .from-\[\#742B8B99\] {
   --tw-gradient-from: #742B8B99 var(--tw-gradient-from-position);
-  --tw-gradient-from-position:  ;
-  --tw-gradient-to: rgb(116 43 139 / 0)  var(--tw-gradient-from-position);
-  --tw-gradient-to-position:  ;
+  --tw-gradient-to: rgb(116 43 139 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .from-\[\#8E278A99\] {
   --tw-gradient-from: #8E278A99 var(--tw-gradient-from-position);
-  --tw-gradient-from-position:  ;
-  --tw-gradient-to: rgb(142 39 138 / 0)  var(--tw-gradient-from-position);
-  --tw-gradient-to-position:  ;
+  --tw-gradient-to: rgb(142 39 138 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .via-\[\#01020385\] {
-  --tw-gradient-via-position:  ;
   --tw-gradient-to: rgb(1 2 3 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-to-position:  ;
   --tw-gradient-stops: var(--tw-gradient-from), #01020385 var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
 .to-\[\#0009\] {
   --tw-gradient-to: #0009 var(--tw-gradient-to-position);
-  --tw-gradient-to-position:  ;
 }
 .to-\[\#061116\] {
   --tw-gradient-to: #061116 var(--tw-gradient-to-position);
-  --tw-gradient-to-position:  ;
 }
 .object-cover {
   -o-object-fit: cover;
@@ -1328,20 +1317,16 @@ video {
     height: 45px;
   }
 
-  .md\:h-\[537px\] {
-    height: 537px;
-  }
-
   .md\:h-auto {
     height: auto;
   }
 
-  .md\:min-h-\[600px\] {
-    min-height: 600px;
-  }
-
   .md\:min-h-\[537px\] {
     min-height: 537px;
+  }
+
+  .md\:min-h-\[600px\] {
+    min-height: 600px;
   }
 
   .md\:w-\[135px\] {
@@ -1806,10 +1791,6 @@ video {
 
   .xl\:h-5 {
     height: 50px;
-  }
-
-  .xl\:h-\[569px\] {
-    height: 569px;
   }
 
   .xl\:h-\[70px\] {
