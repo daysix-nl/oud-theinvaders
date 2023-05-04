@@ -1,4 +1,14 @@
-<style>
+<?php
+if (isset($block['data']['preview_image_help'])): /* rendering in inserter preview  */
+
+    echo '<img src="' . $block['data']['preview_image_help'] . '" style="width:100%; height:auto;">';
+
+else: /* rendering in editor body */
+
+    ?>
+
+
+    <style>
     /* Mobile */
     #<?php the_field('blok_id');?> #acf-titel {
         max-width: <?php the_field('tekstblok_breedte');?>px;
@@ -39,6 +49,12 @@
     }
     }
 </style>
-<section id="<?php the_field('blok_id');?>">
-	<h3 id="acf-titel" class="text-18 leading-22 md:text-22 md:leading-30 xl:text-26 xl:leading-36 font-rubik font-semibold text-white text-center max-w-[298px] md:max-w-[612px] xl:max-w-[655px] mx-auto"><?php the_field('titel');?></h3>
- </section>
+    <section id="<?php the_field('blok_id'); ?>">
+        <h3 id="acf-titel"
+            class="text-18 leading-22 md:text-22 md:leading-30 xl:text-26 xl:leading-36 font-rubik font-semibold text-white text-center max-w-[298px] md:max-w-[612px] xl:max-w-[655px] mx-auto">
+            <?php the_field('titel'); ?>
+        </h3>
+    </section>
+
+
+<?php endif; ?>

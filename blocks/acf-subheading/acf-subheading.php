@@ -1,3 +1,13 @@
+<?php
+if (isset($block['data']['preview_image_help'])): /* rendering in inserter preview  */
+
+    echo '<img src="' . $block['data']['preview_image_help'] . '" style="width:100%; height:auto;">';
+
+else: /* rendering in editor body */
+
+    ?>
+
+
 <style>
     /* Mobile */
     #<?php the_field('blok_id');?> #acf-titel {
@@ -39,6 +49,11 @@
     }
     }
 </style>
-<section id="<?php the_field('blok_id');?>">
-    <h2 id="acf-titel" class="text-22 leading-40 md:text-27 md:leading-28 xl:text-31 xl:leading-32 font-space text-white font-semibold mx-auto text-center"><?php the_field('titel');?></h2>
-</section>
+    <section id="<?php the_field('blok_id'); ?>">
+        <h2 id="acf-titel"
+            class="text-22 leading-40 md:text-27 md:leading-28 xl:text-31 xl:leading-32 font-space text-white font-semibold mx-auto text-center">
+            <?php the_field('titel'); ?>
+        </h2>
+    </section>
+
+<?php endif; ?>

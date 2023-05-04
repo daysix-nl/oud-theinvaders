@@ -1,4 +1,13 @@
-<style>
+<?php
+if (isset($block['data']['preview_image_help'])): /* rendering in inserter preview  */
+
+    echo '<img src="' . $block['data']['preview_image_help'] . '" style="width:100%; height:auto;">';
+
+else: /* rendering in editor body */
+
+    ?>
+
+    <style>
     /* Mobile */
     #<?php the_field('blok_id');?> #acf-afbeelding {
         max-width: <?php the_field('tekstblok_breedte');?>px;
@@ -39,8 +48,10 @@
     }
     }
 </style>
-<section id="<?php the_field('blok_id');?>">
-    <div class="container">
-        <img id="acf-afbeelding" src="<?php the_field('afbeelding');?>" class="h-auto mx-auto">
-    </div>
-</section>
+    <section id="<?php the_field('blok_id'); ?>">
+        <div class="container">
+            <img id="acf-afbeelding" src="<?php the_field('afbeelding'); ?>" class="h-auto mx-auto">
+        </div>
+    </section>
+
+<?php endif; ?>

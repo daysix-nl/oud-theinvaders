@@ -14,5 +14,14 @@
   "acf": {
     "mode": "preview",
     "renderTemplate": "acf-lege-ruimte.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/theinvaders-theme/img/preview-images/Lege-ruimte.jpg",
+        "is_preview": true
+      }
+    }
   }
 }

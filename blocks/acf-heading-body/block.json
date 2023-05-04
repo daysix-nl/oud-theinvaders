@@ -14,5 +14,14 @@
   "acf": {
     "mode": "preview",
     "renderTemplate": "acf-heading-body.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/theinvaders-theme/img/preview-images/Heading.jpg",
+        "is_preview": true
+      }
+    }
   }
 }
